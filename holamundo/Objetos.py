@@ -39,7 +39,7 @@ class Animal:
         self.onomatopeya = onomatopeya
 
     def saludo(self):
-        print('Hola soy un', self.tipo,  'y mi sonido es: ', self.onomatopeya)  #MEtodo
+        print('Hola soy un', self.tipo ,  'y mi sonido es: ', self.onomatopeya)  #MEtodo
     
    
 
