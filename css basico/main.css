@@ -1,9 +1,9 @@
-body {
-    background-color: #bbbbbb;
+/* body {
+    background-color: #eeeeee;
     color: #005758;
 }
-
-#parrafo {
+/*  */
+/* #parrafo {
 
     color: #ff0000;
 }
@@ -11,4 +11,93 @@ body {
 .etiqueta {
 
     color: #01bb00;
+} 
+
+.caja {
+    margin: 8px;
+    padding: 8px;
+    border-width: 8px;
+    border-color: #faa;
+    border-left: 6px solid #afa;
+    background-color: #aaf;
+    border-style: solid;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    color: #575;
+}
+
+.cajaFlotante {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 2px;
+    border-top: solid 0px;
+}
+.contenido {
+    padding: 10px;
+    border-top: solid 1px #ccc;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+.footer {
+    padding: 10px;
+    border-top: solid 1px #ccc;
+}
+
+#bt1 {
+    background-color: #0090ff;
+    padding: 5px;
+    border: 0px;
+    color:white;
+}
+
+#btn2 {
+    background-color: grey;
+    padding: 5px;
+    border: 0px;
+    color: white;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-style: oblique;
+    font-weight: 600;
+    color: #222fff;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 15px;
+    line-height: 1.7;
+    word-spacing: 10px;
+    text-shadow: 3px 2px 5px rgba(0,0,0,0.5);
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    
+} */
+
+a {
+    color: hotpink;
+}
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
 }
